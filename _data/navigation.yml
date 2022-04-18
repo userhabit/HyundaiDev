@@ -3,7 +3,7 @@ header:
     url:        /blog/
 
   - title:      현대차증권
-    url:        "development/installguide/2022/03/31/01_현대차증권-설치절차.html"
+    url:        /HyundaiInst/
     key:        hyundai
 
   - titles:

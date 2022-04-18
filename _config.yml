@@ -122,7 +122,7 @@ comments:
 
   ## Disqus
   disqus:
-    shortname: # the Disqus shortname for the site
+    shortname: userhabitdev # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
@@ -202,8 +202,16 @@ exclude:
   - /vendor
 
 defaults:
+  ## home
   - scope:
       path: "blog"
+      type: posts
+    values:
+      articles:
+        excerpt_type: html
+  ## Posts
+  - scope:
+      path: ""
       type: posts
     values:
       layout: article

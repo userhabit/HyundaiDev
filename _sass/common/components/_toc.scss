@@ -79,7 +79,8 @@ ul.toc--ellipsis {
   & > li {
     @include overflow(hidden);
     text-overflow: ellipsis;
-    white-space: nowrap;
+    // white-space: nowrap; //org
+     white-space: pre-line; //thkang
   }
 }
 

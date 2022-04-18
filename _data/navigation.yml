@@ -1,11 +1,10 @@
 header:
-  - title:      Docs
-    url:        /docs/en/quick-start
-    key:        docs
+  - title:      Home
+    url:        /blog/
 
-  - title:      UH
-    url:        /
-    key:        uhs
+  - title:      현대차증권
+    url:        "development/installguide/2022/03/31/01_현대차증권-설치절차.html"
+    key:        hyundai
 
   - titles:
       # @start locale config
@@ -34,31 +33,11 @@ header:
     url: /archive.html
     key: Archives
 
-  - titles:
-      # @start locale config
-      en      : &EN       About
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  关于
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  關於
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       소개
-      ko-KR   : *KO
-      fr      : &FR       À propos
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      tr      : &TR       Hakkında
-      # @end locale config
-    url: /about.html
+  - title:      유저해빗
+    url: http://userhabit.io
+    key:        userhabit
+
+
 
 uhs-en:
   - title:      Start

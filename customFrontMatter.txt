@@ -1,11 +1,11 @@
 layout: article
-published: ture
 tag: 
 - HyundaiDev
+- HyundaiDev_SDK
 categories: 
 - Development
 - InstallGuide
-
-
-
-
+- SDK
+published: true
+sidebar:
+  nav: SDK_Sidebar

@@ -2,9 +2,13 @@ header:
   - title:      Home
     url:        /blog/
 
-  - title:      현대차증권
+  - title:      운영설치
     url:        /HyundaiInst/
     key:        hyundai
+
+  - title:      SDK
+    url:        /HyundaiSDKInst/
+    key:        hyundaiSDK
 
   - titles:
       # @start locale config
@@ -97,13 +101,13 @@ uhs-en:
       - title:  中文
         url:    /docs/zh/quick-start
 
-layouts:
-  - title: Layouts2
+SDK_Sidebar:
+  - title: SDK Update Note
     children:
-      - title:  Single
-        url:    2022/04/01/writeTest.html
-      - title:  Aside
-        url:    /page/aside.html
+      - title:  Home
+        url:    /HyundaiSDKInst/
+      - title:  Android SDK 및 AAR설치 방법
+        url:    development/installguide/sdk/2022/02/26/SDK_Update_Note_220227-안드로이드SDK설명.html
       - title:  Sidebar
         url:    2022/04/01/writeTest.html
 

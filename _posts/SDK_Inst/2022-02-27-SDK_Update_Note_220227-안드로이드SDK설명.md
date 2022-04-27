@@ -1,5 +1,5 @@
 ---
-title: "SDK_Update_Note_220227-안드로이드SDK설명"
+title: "220227-안드로이드SDK설명----"
 date: 2022-02-27 00:00:00 +0900
 layout: article
 tag: 
@@ -13,7 +13,6 @@ published: true
 sidebar:
   nav: SDK_Sidebar
 ---
-# #22_0214-현대-SDK-안드로이드SDK설명
 
 Created: April 27, 2022 4:39 PM
 Tags: 현대차증권
@@ -23,7 +22,9 @@ Tags: 현대차증권
 
 1. aar 파일을 libs 폴더에 놓습니다
 
-![Image](/assets/images/posts/2022-04-01-1111//user-images.githubusercontent.com/86036762/153814013-2da9daa9-2ac0-44cc-8b41-23bf3ba3f845.png)
+![Image](/assets/images/posts/2022-04-27-22_0214_현대_sdk_안드로이드sdk설명/untitled.png)
+
+TestCaption
 
 1. build.gradle 에 aar 추가 설정합니다
 
@@ -67,7 +68,7 @@ dependencies {
 	}
 ```
 
-![Image](#22_0214-%E1%84%92%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A2-SDK-%E1%84%8B%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3SDK%E1%84%89%E1%85%A5%E1%86%AF%E1%84%86%E1%85%A7%E1%86%BC%206e72e840ac3c47feb7ab53c14b00c6cc/Untitled.png)
+![Image](/assets/images/posts/2022-04-27-22_0214_현대_sdk_안드로이드sdk설명/untitled_1.png)
 
 화면 이름 설정
 
@@ -171,7 +172,7 @@ public class CtlRadioGroup ...
 ### 내장 설정
 
 ```
-서버주소 : "[/assets/images/posts/2022-04-01-1111//mceext.hmsec.com](/assets/images/posts/2022-04-01-1111//mceext.hmsec.com/)"
+서버주소 : "[https://mceext.hmsec.com](https://mceext.hmsec.com/)"
 이미지수집모드 : true
 ```
 

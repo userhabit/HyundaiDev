@@ -21,8 +21,16 @@ Tags: 현대차증권
 ### SDK 추가
 
 1. aar 파일을 libs 폴더에 놓습니다
+![Image]({{site.url}}/assets/images/posts/2022-04-27-22_0214_현대_sdk_안드로이드sdk설명/untitled.png)
+![Image]({{site.url}}/{{site.baseurl}}/assets/images/posts/2022-04-27-22_0214_현대_sdk_안드로이드sdk설명/untitled.png)
 
-![Image](/assets/images/posts/2022-04-27-22_0214_현대_sdk_안드로이드sdk설명/untitled.png)
+
+![Image](http://blog.jaeyoon.io/assets/img/image.png)
+![Image]({{"/assets/img/image.png"| relative_url}})
+![Image](/assets/img/image.png)
+
+
+![Image]()
 
 TestCaption
 

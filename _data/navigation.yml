@@ -107,7 +107,7 @@ SDK_Sidebar:
       - title:  Home
         url:    /HyundaiSDKInst/
       - title:  Android SDK 및 AAR설치 방법
-        url:    development/installguide/sdk/2022/02/26/SDK_Update_Note_220227-안드로이드SDK설명.html
+        url:    {{site.url}}/{{site.baseurl}}/development/installguide/sdk/2022/02/26/SDK_Update_Note_220227-안드로이드SDK설명.html
       - title:  Sidebar
         url:    2022/04/01/writeTest.html
 

@@ -141,7 +141,7 @@ pre, code {
  }
 
 code {
-  //font-size: map-get($base, font-size-sm); 코드 블럭 내 글씨 사이즈 키우기 thkang
+  font-size: map-get($base, font-size-ssm); //코드 블럭 내 글씨 사이즈 키우기 sm -> ssm, thkang 
   line-height: map-get($base, line-height-sm);
   //font-weight: map-get($base, font-weight-bold); // thkang 인라인, 블록 코드의 폰트 굵기 변경
   color: #ff006a; // 인라인 코드의 폰트 색상 변경 thkang
@@ -150,6 +150,7 @@ code {
 // 여기 부분을 추가해줘야 인라인 코드와 블록 코드의 색을 다르게 설정 할수 있다. thkang
 pre code {
   color: #eaeaea; // 블록 코드 색상 변경 thkang
+  white-space : pre-wrap !important; //코드 블럭 안의 Text wrap 설정 thkang
 }
 
 figure > img {

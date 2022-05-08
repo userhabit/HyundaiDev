@@ -50,51 +50,36 @@ SDK_Sidebar:
         url:    /development/installguide/sdk/2022/02/27/UN-220227-안드로이드SDK설명.html        
       - title:  Sidebar
         url:    2022/04/01/writeTest.html
-
       - title:  Sidebar (Aside)
         url:    /page/sidebar-aside.html
       - title:  Article Header Overlay Background Fill
         url:    /page/article-header-overlay-background-fill.html
-      - title:  Article Header Overlay Background Image
-        url:    /page/article-header-overlay-background-image.html
-
-      - title:  Article Header Image
-        url:    /page/article-header-cover-image.html
-      - title:  Article Header Overlay Background Image (Customized Header Background)
-        url:    /page/article-header-overlay-background-image-header-background.html
-      - title:  Article Header Image (Customized Header Background)
-        url:    /page/article-header-cover-image-header-background.html
-
-      - title:  Article Header Overlay Background Fill (Immersive + Translucent Header)
-        url:    /page/article-header-overlay-background-fill-immersive-translucent-header.html
-      - title:  Article Header Overlay Background Image (Immersive + Translucent Header)
-        url:    /page/article-header-overlay-background-image-immersive-translucent-header.html
-      - title:  Article Header Image (Immersive + Translucent Header)
-        url:    /page/article-header-cover-image-immersive-translucent-header.html
 
 
 PolarisInst_Sidebar:
-  - title: Polaris Install Guide
+  - title: Polaris Install Guides
     children:
-      - title:  Home
-        url:     /HyundaiInst/
-      - title:  02_MongoDB설치
-        url:    /development/installguide/2022/04/05/02_MongoDB설치.html
-      - title:  03_OpenSSL설치
-        url:    /development/installguide/2022/04/05/03_OpenSSL설치.html
-      - title:  04_MongoDB설정_part1
-        url:    /development/installguide/2022/04/05/04_MongoDB설정_part1.html
-      - title:  05_MongoDB설정_part2
-        url:    /development/installguide/2022/04/05/05_MongoDB설정_part2.html
-      - title:  06_OpenJDK설치
-        url:    /development/installguide/2022/04/05/06_OpenJDK설치.html
-      - title:  07_Nginx설치
-        url:    /development/installguide/2022/04/05/07_Nginx설치-및-보안설정.html
-      - title:  08_유저해빗 솔루션 설치(폴라리스)
-        url:    /development/installguide/2022/04/05/08_폴라리스-설치.html
-      - title:  09_logrotate
-        url:    /development/installguide/2022/04/05/09_logrotate-설정.html
-      - title:  10_이미지-동기화-설정
-        url:    /development/installguide/2022/04/05/10_이미지-동기화-설정.html
-      - title:  부록01_Nginx-보안설정
-        url:    /development/installguide/2022/04/05/부록01_Nginx-보안설정.html
+      - title:  01. 설치요약
+        url:    /HyundaiInst/
+      - title:  02. MongoDB설치
+        url:    /HyundaiInst/02/
+      - title:  03. OpenSSL설치
+        url:    /HyundaiInst/03/
+      - title:  04. MongoDB설정_part1
+        url:    /HyundaiInst/04/
+      - title:  05. MongoDB설정_part2
+        url:    /HyundaiInst/05/
+      - title:  06. OpenJDK설치
+        url:    /HyundaiInst/06/
+      - title:  07. Nginx설치
+        url:    /HyundaiInst/07/
+      - title:  08. 유저해빗 솔루션 설치
+        url:    /HyundaiInst/08/
+      - title:  09. logrotate 설정
+        url:    /HyundaiInst/09/
+      - title:  10. 이미지 동기화 설정
+        url:    /HyundaiInst/10/
+  - title: Polaris Install 참고사항
+    children:
+      - title:  부록01. Nginx 보안설정
+        url:    /HyundaiInst/s01/

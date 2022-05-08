@@ -41,66 +41,6 @@ header:
     url: http://userhabit.io
     key:        userhabit
 
-
-
-uhs-en:
-  - title:      Start
-    children:
-      - title:  Quick Start
-        url:    /docs/en/quick-start
-      - title:  Structure
-        url:    /docs/en/structure
-      - title:  Update from 1.x to 2.x
-        url:    /docs/en/update-from-1-to-2
-  - title:      Customization
-    children:
-      - title:  Configuration
-        url:    /docs/en/configuration
-      - title:  Navigation
-        url:    /docs/en/navigation
-      - title:  Layouts
-        url:    /docs/en/layouts
-      - title:  Logo and Favicon
-        url:    /docs/en/logo-and-favicon
-      - title:  Authors
-        url:    /docs/en/authors
-      - title:  Internationalization
-        url:    /docs/en/i18n
-  - title:      Content
-    children:
-      - title:  Writing Posts
-        url:    /docs/en/writing-posts
-      - title:  Additional Styles
-        url:    /docs/en/additional-styles
-      - title:  Extensions
-        url:    /docs/en/extensions
-      - title:  Markdown Enhancements
-        url:    /docs/en/markdown-enhancements
-  - title:      Extra
-    children:
-      - title:  Spacing
-        url:    /docs/en/spacing
-      - title:  Grid
-        url:    /docs/en/grid
-      - title:  Icons
-        url:    /docs/en/icons
-      - title:  Image
-        url:    /docs/en/image
-      - title:  Button
-        url:    /docs/en/button
-      - title:  Item
-        url:    /docs/en/item
-      - title:  Card
-        url:    /docs/en/card
-      - title:  Hero
-        url:    /docs/en/hero
-      - title:  Swiper
-        url:    /docs/en/swiper
-  - title:      Languages
-    children:
-      - title:  中文
-        url:    /docs/zh/quick-start
-
 SDK_Sidebar:
   - title: SDK Update Note
     children:
@@ -131,3 +71,30 @@ SDK_Sidebar:
         url:    /page/article-header-overlay-background-image-immersive-translucent-header.html
       - title:  Article Header Image (Immersive + Translucent Header)
         url:    /page/article-header-cover-image-immersive-translucent-header.html
+
+
+PolarisInst_Sidebar:
+  - title: Polaris Install Guide
+    children:
+      - title:  Home
+        url:     /HyundaiInst/
+      - title:  02_MongoDB설치
+        url:    /development/installguide/2022/04/05/02_MongoDB설치.html
+      - title:  03_OpenSSL설치
+        url:    /development/installguide/2022/04/05/03_OpenSSL설치.html
+      - title:  04_MongoDB설정_part1
+        url:    /development/installguide/2022/04/05/04_MongoDB설정_part1.html
+      - title:  05_MongoDB설정_part2
+        url:    /development/installguide/2022/04/05/05_MongoDB설정_part2.html
+      - title:  06_OpenJDK설치
+        url:    /development/installguide/2022/04/05/06_OpenJDK설치.html
+      - title:  07_Nginx설치
+        url:    /development/installguide/2022/04/05/07_Nginx설치-및-보안설정.html
+      - title:  08_유저해빗 솔루션 설치(폴라리스)
+        url:    /development/installguide/2022/04/05/08_폴라리스-설치.html
+      - title:  09_logrotate
+        url:    /development/installguide/2022/04/05/09_logrotate-설정.html
+      - title:  10_이미지-동기화-설정
+        url:    /development/installguide/2022/04/05/10_이미지-동기화-설정.html
+      - title:  부록01_Nginx-보안설정
+        url:    /development/installguide/2022/04/05/부록01_Nginx-보안설정.html

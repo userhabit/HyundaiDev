@@ -52,9 +52,12 @@ for file in zip_files:
         
         meta_title = input("Enter a Title [Default:%s]\nIf you press enter, the default value is set as the title.\n" %meta_title) or meta_title
         print("Title: %s"%meta_title)  
-        meta_subtitle = input("Enter a subtitle: ")
-        meta_categories = input("Enter categories: ")
-        meta_tags = re.sub(' *, *', ',', input("Enter tags (ex: dog,cat): ")).split(",")
+        #meta_subtitle = input("Enter a subtitle: ")
+        #meta_categories = input("Enter categories: ")
+        #meta_tags = re.sub(' *, *', ',', input("Enter tags : ")).split(",")
+        meta_subtitle = "meta_subtitle"
+        meta_categories = "meta_categories"
+        meta_tags = "meta_tags"
         meta_date = time.strftime('%Y-%m-%d %H:%M:%S') +" +0900"
 
         # put meta data

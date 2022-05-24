@@ -79,7 +79,9 @@ PolarisInst_Sidebar:
         url:    /HyundaiInst/09/
       - title:  10. 이미지 동기화 설정
         url:    /HyundaiInst/10/
+      - title:  S01.모니터링 서버 설치
+        url:    /HyundaiInst/S01/
   - title: Polaris Install 참고사항
     children:
       - title:  부록01. Nginx 보안설정
-        url:    /HyundaiInst/s01/
+        url:    /HyundaiInst/A01/

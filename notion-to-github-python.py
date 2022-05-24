@@ -60,7 +60,8 @@ for file in zip_files:
         meta_tags = "meta_tags"
         meta_date = time.strftime('%Y-%m-%d %H:%M:%S') +" +0900"
 
-        # put meta data
+        # put meta data //org
+        '''
         lines.insert(0, "---")
         lines.insert(1, "title: \"%s\""%meta_title)
         lines.insert(2, "subtitle: %s"%meta_subtitle)
@@ -70,8 +71,25 @@ for file in zip_files:
         for index, tag in enumerate(meta_tags):
             lines.insert(6+index, "  - %s"%tag)
         lines.insert(7+index, "---")
+        '''
 
-
+        # put meta data //현대차증권용 수정
+        lines.insert(0, "---")
+        lines.insert(1, "title: \"%s\""%meta_title)
+        lines.insert(2, "date: 2022-04-05 01:00:00")
+        lines.insert(3, "tag:")
+        lines.insert(4, "- HyundaiDev")
+        lines.insert(5, "- Polaris")
+        lines.insert(6, "categories: ")
+        lines.insert(7, "- Development")
+        lines.insert(8, "- InstallGuide")
+        lines.insert(9, "published: true")
+        lines.insert(10, "sidebar:")
+        lines.insert(11, "  nav: PolarisInst_Sidebar")
+        lines.insert(12, "excerpt: '설치 시작하기'")
+        lines.insert(13, "permalink: /HyundaiInst/")
+        lines.insert(14, "---")
+        lines.insert(15, "# yaml front matter 검토 및 수정하고 이줄 삭제하세요 ------------")
 
         # -----------------------[Image]---------------------------
         images = [i for i in content_files if i != md_file]
